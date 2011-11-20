@@ -1,0 +1,14 @@
+Count Per Second
+----------------
+This tool counts the number of lines and bytes per second piped into the program.
+
+Installation
+------------
+Copy "cps" to a PATH accessible directory (ex: /usr/local/bin/)
+   
+   sudo cp cps /usr/local/bin/
+
+Example
+--------
+Line per second added to a log: tail -f log_file.log | cps
+
