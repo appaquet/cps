@@ -1,12 +1,11 @@
-Count Per Second
-----------------
-This tool counts the number of lines and bytes per second piped into the program.
+cps (count per second) is a small linux program written in python that shows number of lines and bytes per second piped into the program.
 
 Installation
 ------------
 Copy "cps" to a PATH accessible directory (ex: /usr/local/bin/)
-   
-   sudo cp cps /usr/local/bin/
+
+   sudo cp cps /usr/local/bin/ 
+   sudo chmod a+x /usr/local/bin/cps
 
 Example
 --------
